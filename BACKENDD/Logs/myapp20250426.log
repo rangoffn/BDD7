@@ -1,0 +1,69 @@
+2025-04-26 06:04:03.599 +03:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Contacts" AS c)
+2025-04-26 06:04:03.648 +03:00 [INF] Таблица Contacts уже создана.
+2025-04-26 06:04:03.713 +03:00 [INF] User profile is available. Using 'C:\Users\SystemX\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-26 06:04:03.810 +03:00 [INF] Now listening on: https://localhost:7269
+2025-04-26 06:04:03.811 +03:00 [INF] Now listening on: http://localhost:5170
+2025-04-26 06:04:03.828 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-26 06:04:03.828 +03:00 [INF] Hosting environment: Development
+2025-04-26 06:04:03.829 +03:00 [INF] Content root path: C:\Users\SystemX\source\repos\BD_MAIN\BACKENDD
+2025-04-26 06:04:04.469 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7269/ - null null
+2025-04-26 06:04:04.537 +03:00 [INF] Executing endpoint 'BACKENDD.Controllers.HomeController.Index (BACKENDD)'
+2025-04-26 06:04:04.546 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller BACKENDD.Controllers.HomeController (BACKENDD).
+2025-04-26 06:04:04.549 +03:00 [INF] Главая страница загружена.
+2025-04-26 06:04:04.557 +03:00 [INF] Executing ViewResult, running view Index.
+2025-04-26 06:04:04.651 +03:00 [INF] Executed ViewResult - view Index executed in 95.625ms.
+2025-04-26 06:04:04.654 +03:00 [INF] Executed action BACKENDD.Controllers.HomeController.Index (BACKENDD) in 106.4035ms
+2025-04-26 06:04:04.655 +03:00 [INF] Executed endpoint 'BACKENDD.Controllers.HomeController.Index (BACKENDD)'
+2025-04-26 06:04:04.661 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7269/ - 200 null text/html; charset=utf-8 197.2398ms
+2025-04-26 06:04:04.664 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7269/css/styles.css - null null
+2025-04-26 06:04:04.664 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7269/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-26 06:04:04.664 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7269/css/styles.css?v=pQMQiJdBtyyxEmlhBsjdSU35A1786k6_8HtuwRcp73c - null null
+2025-04-26 06:04:04.667 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7269/_vs/browserLink - null null
+2025-04-26 06:04:04.704 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7269/_framework/aspnetcore-browser-refresh.js - 200 16501 application/javascript; charset=utf-8 40.2425ms
+2025-04-26 06:04:04.712 +03:00 [INF] Sending file. Request path: '/css/styles.css'. Physical path: 'C:\Users\SystemX\source\repos\BD_MAIN\BACKENDD\wwwroot\css\styles.css'
+2025-04-26 06:04:04.712 +03:00 [INF] Sending file. Request path: '/css/styles.css'. Physical path: 'C:\Users\SystemX\source\repos\BD_MAIN\BACKENDD\wwwroot\css\styles.css'
+2025-04-26 06:04:04.713 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7269/css/styles.css - 200 2541 text/css 49.1991ms
+2025-04-26 06:04:04.714 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7269/css/styles.css?v=pQMQiJdBtyyxEmlhBsjdSU35A1786k6_8HtuwRcp73c - 200 2541 text/css 50.1454ms
+2025-04-26 06:04:04.727 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7269/_vs/browserLink - 200 null text/javascript; charset=UTF-8 60.3107ms
+2025-04-26 06:04:07.017 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7269/Home/Privacy - null null
+2025-04-26 06:04:07.026 +03:00 [INF] Executing endpoint 'BACKENDD.Controllers.HomeController.Privacy (BACKENDD)'
+2025-04-26 06:04:07.040 +03:00 [INF] Route matched with {action = "Privacy", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Privacy() on controller BACKENDD.Controllers.HomeController (BACKENDD).
+2025-04-26 06:04:07.041 +03:00 [INF] Загружена страница  конфид.
+2025-04-26 06:04:07.042 +03:00 [INF] Executing ViewResult, running view Privacy.
+2025-04-26 06:04:07.046 +03:00 [INF] Executed ViewResult - view Privacy executed in 4.5806ms.
+2025-04-26 06:04:07.047 +03:00 [INF] Executed action BACKENDD.Controllers.HomeController.Privacy (BACKENDD) in 6.1155ms
+2025-04-26 06:04:07.047 +03:00 [INF] Executed endpoint 'BACKENDD.Controllers.HomeController.Privacy (BACKENDD)'
+2025-04-26 06:04:07.048 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7269/Home/Privacy - 200 null text/html; charset=utf-8 30.9531ms
+2025-04-26 06:04:07.064 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7269/_vs/browserLink - null null
+2025-04-26 06:04:07.064 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7269/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-26 06:04:07.080 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7269/_framework/aspnetcore-browser-refresh.js - 200 16501 application/javascript; charset=utf-8 15.7015ms
+2025-04-26 06:04:07.087 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7269/_vs/browserLink - 200 null text/javascript; charset=UTF-8 23.4264ms
+2025-04-26 06:04:07.592 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7269/Home/NewTABBB - null null
+2025-04-26 06:04:07.599 +03:00 [INF] Executing endpoint 'BACKENDD.Controllers.HomeController.NewTABBB (BACKENDD)'
+2025-04-26 06:04:07.601 +03:00 [INF] Route matched with {action = "NewTABBB", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult NewTABBB() on controller BACKENDD.Controllers.HomeController (BACKENDD).
+2025-04-26 06:04:07.603 +03:00 [INF] Executing ViewResult, running view NewTABBB.
+2025-04-26 06:04:07.605 +03:00 [INF] Executed ViewResult - view NewTABBB executed in 1.8707ms.
+2025-04-26 06:04:07.606 +03:00 [INF] Executed action BACKENDD.Controllers.HomeController.NewTABBB (BACKENDD) in 3.8935ms
+2025-04-26 06:04:07.606 +03:00 [INF] Executed endpoint 'BACKENDD.Controllers.HomeController.NewTABBB (BACKENDD)'
+2025-04-26 06:04:07.609 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7269/Home/NewTABBB - 200 null text/html; charset=utf-8 16.7877ms
+2025-04-26 06:04:07.621 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7269/_vs/browserLink - null null
+2025-04-26 06:04:07.621 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7269/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-26 06:04:07.626 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7269/_framework/aspnetcore-browser-refresh.js - 200 16501 application/javascript; charset=utf-8 5.053ms
+2025-04-26 06:04:07.628 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7269/_vs/browserLink - 200 null text/javascript; charset=UTF-8 7.3129ms
+2025-04-26 06:04:07.965 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7269/ - null null
+2025-04-26 06:04:07.969 +03:00 [INF] Executing endpoint 'BACKENDD.Controllers.HomeController.Index (BACKENDD)'
+2025-04-26 06:04:07.969 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller BACKENDD.Controllers.HomeController (BACKENDD).
+2025-04-26 06:04:07.970 +03:00 [INF] Главая страница загружена.
+2025-04-26 06:04:07.971 +03:00 [INF] Executing ViewResult, running view Index.
+2025-04-26 06:04:07.974 +03:00 [INF] Executed ViewResult - view Index executed in 3.6787ms.
+2025-04-26 06:04:07.975 +03:00 [INF] Executed action BACKENDD.Controllers.HomeController.Index (BACKENDD) in 5.0089ms
+2025-04-26 06:04:07.976 +03:00 [INF] Executed endpoint 'BACKENDD.Controllers.HomeController.Index (BACKENDD)'
+2025-04-26 06:04:07.977 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7269/ - 200 null text/html; charset=utf-8 11.5702ms
+2025-04-26 06:04:08.004 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7269/_vs/browserLink - null null
+2025-04-26 06:04:08.005 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7269/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-26 06:04:08.009 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7269/_framework/aspnetcore-browser-refresh.js - 200 16501 application/javascript; charset=utf-8 20.0463ms
+2025-04-26 06:04:08.011 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7269/_vs/browserLink - 200 null text/javascript; charset=UTF-8 22.3203ms
+)
